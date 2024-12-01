@@ -9,9 +9,7 @@ python = "^3.12"
 python-telegram-bot = "20.0"
 requests = "2.31.0"
 python-dotenv = "1.0.0"
-[tool.poetry.dependencies]
 flask = "^2.3.0"
-
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
