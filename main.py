@@ -5,7 +5,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackQueryHandler, CallbackContext, ConversationHandler
 
 # Start the keep_alive server
-keep_alive.run()
+keep_alive()  # Start the Flask server to keep the bot alive
 
 # Set up logging to capture errors
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
